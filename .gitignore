@@ -1,0 +1,5 @@
+# Prevent data from uploading
+/data
+
+# configure files
+.DS_Store
