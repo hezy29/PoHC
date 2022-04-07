@@ -34,7 +34,7 @@ chi2, p = calculate_bartlett_sphericity(data[data.columns[10:]])
 validity = [kmo_model, chi2]
 
 # Model
-desc_1 = desc.mod1
+desc_1 = desc.mod_1
 mod_1 = Model(description=desc_1)
 mod_1.fit(data)
 
