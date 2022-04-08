@@ -3,3 +3,4 @@
 
 # configure files
 .DS_Store
+*.pyc
