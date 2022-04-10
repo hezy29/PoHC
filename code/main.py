@@ -59,4 +59,6 @@ stats.T.to_excel("./PoHC/out/fit_indices.xlsx")
 mod_basic_no_params = semplot(
     mod_basic, "./PoHC/picture/mod_basic_no_params.pdf", plot_ests=False)
 mod_basic_with_params = semplot(
-    mod_basic, "./PoHC/picture/mod_basic_with_params.pdf", plot_ests=True, std_ests=True)
+    mod_basic, "./PoHC/picture/mod_basic_with_params.pdf", plot_ests=True, std_ests=True, plot_covs=True)
+mod_fixed_with_parmas = semplot(
+    mod_fixed, "./PoHC/picture/mod_fixed_with_params.pdf", plot_ests=True, std_ests=True, plot_covs=True)
